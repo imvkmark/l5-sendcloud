@@ -1,0 +1,28 @@
+{
+	"name": "imvkmark/l5-sendcloud",
+	"description": "",
+	"authors": [
+		{
+			"name": "Mark Zhao",
+			"email": "zhaody901@126.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Imvkmark\\L5Sendcloud\\": "src/L5Sendcloud"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packagist.phpcomposer.com"
+		},
+		{
+			"packagist": false
+		}
+	],
+	"minimum-stability": "dev"
+}
